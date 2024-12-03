@@ -13,10 +13,13 @@ def aprekinat_laminatu(plaksnes_garums, plaksnes_platums, istabas_garums, istaba
                 rindas_plaksnes += 1
                 rindas_garums -= plaksnes_garums
         else:
-            # Pāra rinda
-         while rindas_garums > 0:
-            rindas_plaksnes += 1
-            rindas_garums -= plaksnes_garums 
+            
+           # Pāra rinda
+            rindas_plaksnes += 0.5
+            rindas_garums -= plaksnes_garums / 2
+            while rindas_garums > 0:
+                rindas_plaksnes += 1
+                rindas_garums -= plaksnes_garums
         
         kopejas_plaksnes += rindas_plaksnes
         atlikusais_platums -= plaksnes_platums
