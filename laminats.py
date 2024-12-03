@@ -29,9 +29,9 @@ def aprekinat_laminatu(plaksnes_garums, plaksnes_platums, istabas_garums, istaba
 
 # pārbaude
 print(aprekinat_laminatu(1, .5, 3, 2))
-istabas_garums = float(input("ievadīt:"))
-istabas_platums = float(input("ievadīt:"))
-plaksnes_garums = float(input("ievadīt:"))
-plaksnes_platums = float(input("ievadīt:"))
-pakas_cena = float(input("ievadīt:"))
-pakas_platiba = float(input("ievadīt:"))
+istabas_garums = float(input("ievadīt istabas garumu:"))
+istabas_platums = float(input("ievadīt istabas platumu:"))
+plaksnes_garums = float(input("ievadīt plansnes garumu:"))
+plaksnes_platums = float(input("ievadīt plaksnes platumu:"))
+pakas_cena = float(input("ievadīt pakas cenu:"))
+pakas_platiba = float(input("ievadīt pakas platibu:"))
